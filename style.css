@@ -103,6 +103,7 @@ nav ul li a,.fa-search, .fa-shopping-cart{
 .popular-collection{
 height: 100 vh;
 width: 100%;
+margin-bottom:30px ;
 }
 .section-title{
     font-size: 28px;
@@ -132,9 +133,7 @@ border-radius: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.collection h4{
 
-}
 .star{
     color: #FB8200;
     padding: 10px 0;
@@ -146,4 +145,17 @@ border-radius: 5px;
     line-height: 1.5;
     letter-spacing: 0.9px;
     
+}
+
+/* footer desigh  */
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  justify-content:  center;
 }
