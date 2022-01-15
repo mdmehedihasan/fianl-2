@@ -30,9 +30,10 @@ body{
 .btn:hover{
    transform: translateY(-10px);
    background-color: black;
-   cursor: pointer;
-   
-    
+   cursor: pointer;   
+}
+.clr{
+    color: #ff7926;
 }
 
 /* nav-menu style */
@@ -199,4 +200,10 @@ footer{
     color: white;
     text-align: center;
   justify-content:  center;
+}
+footer p{
+    font-size: 14px;
+}
+.social i{
+    margin-right: 5px;
 }
