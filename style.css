@@ -225,6 +225,9 @@ footer p{
     .container{
         padding: 5px 20px 0px 20px;
     }
+    .hero-section{
+        margin: 50px 0;
+    }
     
     nav ul{
         position: fixed;
@@ -273,6 +276,7 @@ footer p{
     display:flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-top: 20px;
 }
 .collection-box{
     display: grid;
