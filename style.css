@@ -173,14 +173,16 @@ align-items: center;
 .left-side{
 flex: 1;
 padding: 30px;
+
 }
 .right-side{
     padding: 20px;
-flex: 1;
+    flex: 1;
+    
 }
 .right-side h2{
     font-size: 28px;
-    padding: 20px 0;
+    padding-bottom: 20px ;
 }
 .right-side p{
     font-size: 16px;
@@ -207,3 +209,84 @@ footer p{
 .social i{
     margin-right: 5px;
 }
+
+#check{
+    display: none;
+}
+.menu-btn{
+    font-size: 22px;
+    display: none;
+}
+
+/* Responsive Design */
+
+@media (max-width:768px) {
+    nav ul{
+        position: fixed;
+        top: 130px;
+        left:-100%;
+        background: #fff;
+        height: 100%;
+        width: 100vw;
+        display: block;
+        text-align: center;
+
+    }
+    nav ul li{
+        margin: 40px 0;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+    #check:checked ~.menu-btn i::before{
+        content: "\f00d";
+    }
+   .menu-btn{
+    display: block;
+   }
+   .logo{
+    color: #3A3A3A;
+    font-size:20px;
+}
+
+.company{
+    display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+    
+}
+
+@media (min-width:769px) and (max-width: 1024px) {
+    nav ul{
+        position: fixed;
+        top: 130px;
+        left:-100%;
+        background: #fff;
+        height: 100%;
+        width: 100vw;
+        display: block;
+        text-align: center;
+
+    }
+    nav ul li{
+        margin: 40px 0;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+    #check:checked ~.menu-btn i::before{
+        content: "\f00d";
+    }
+   .menu-btn{
+    display: block;
+   }
+   .logo{
+    color: #3A3A3A;
+    font-size:20px;
+}
+
+
+
+     }
