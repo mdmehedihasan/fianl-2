@@ -195,6 +195,9 @@ padding-right:10px;
     font-weight: 500;
     padding:20px 0 ;
 }
+.right-side>ul span{
+    font-weight: bold;
+}
 
 
 /* footer desigh  */
